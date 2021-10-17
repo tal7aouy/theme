@@ -15,7 +15,7 @@ PHP
 ## Installation
 
 1. Open the extensions sidebar on Visual Studio Code
-1. Search for One Dark Theme
+1. Search for Theme
 1. Click Install
 1. Click Reload to reload your editor
 1. Select the Manage Cog (bottom left) > Color Theme ＞ Theme
@@ -29,4 +29,4 @@ For any issues or suggestions, please use [GitHub issues](https://github.com/tal
 
 free monospaced font with programming ligatures.
 
-![Screenshot - Theme](/images/font.svg)
+![Screenshot - Theme](/images/fira.png)
