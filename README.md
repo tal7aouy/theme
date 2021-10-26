@@ -4,13 +4,17 @@ A Visual Studio Code theme for those of us who like to code late into the night!
 
 ## Theme Screenshot
 
-Vue.js
+Typescript
 
-![Screenshot - Theme](/images/code1.png)
+![Screenshot - Theme](/images/code.png)
 
 PHP
 
 ![Screenshot - Theme](/images/code2.png)
+
+Vue.js
+
+![Screenshot - Theme](/images/code3.png)
 
 ## Installation
 
@@ -20,6 +24,14 @@ PHP
 1. Click Reload to reload your editor
 1. Select the Manage Cog (bottom left) > Color Theme ＞ Theme
 1. 🌟🌟🌟🌟🌟 Rate five-stars 😃
+
+## Suggest Editor Settings
+
+```json
+"editor.fontSize": 16,
+ "editor.lineHeight": 22,
+ "editor.fontFamily": "Fira Code",
+```
 
 ## Issues & Suggestions
 
