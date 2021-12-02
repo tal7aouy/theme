@@ -131,7 +131,7 @@
     "titleBar.inactiveBackground": "#21262c",
     "titleBar.inactiveForeground": "#6b717d",
     "walkThrough.embeddedEditorBackground": "#2e3440",
-    "welcomePage.buttonHoverBackground": "#404754"
+    "welcomePage.": "#404754"
   },
   "tokenColors": [
     {
@@ -1071,7 +1071,7 @@
       "name": "C++ Meta Namespace",
       "scope": ["meta.namespace-block.cpp"],
       "settings": {
-        "foreground": "#e0dec6"
+        "foreground": "#e5c07b"
       }
     },
     {
@@ -1269,6 +1269,20 @@
       "scope": "variable.other.object.js",
       "settings": {
         "foreground": "#c56068"
+      }
+    },
+    {
+      "name": "JavaScript Other Property",
+      "scope": "variable.language.this.js variable.language.this.ts",
+      "settings": {
+        "foreground": "#bb7737"
+      }
+    },
+    {
+      "name": "Typescript Other Property",
+      "scope": "variable.language.this.ts",
+      "settings": {
+        "foreground": "#bb7737"
       }
     },
     {
@@ -1653,7 +1667,7 @@
       "name": "JavaScript Variable Other ReadWrite",
       "scope": ["variable.other.readwrite.js", "variable.parameter"],
       "settings": {
-        "foreground": "#d7dbe0"
+        "foreground": "#85a5e9"
       }
     },
     {
@@ -1699,6 +1713,7 @@
         "foreground": "#C792EA"
       }
     },
+
     {
       "name": "TypeScript Method Declaration e.g. `constructor`",
       "scope": [
