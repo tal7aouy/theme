@@ -1,8 +1,9 @@
 {
   "name": "Theme",
   "type": "dark",
+  "semanticHighlighting": true,
   "colors": {
-    "activityBar.background": "#21262c",
+    "activityBar.background": "#282c34",
     "activityBar.foreground": "#d7dae0",
     "activityBarBadge.background": "#4d78cc",
     "activityBarBadge.foreground": "#f8fafd",
@@ -131,7 +132,7 @@
     "titleBar.inactiveBackground": "#21262c",
     "titleBar.inactiveForeground": "#6b717d",
     "walkThrough.embeddedEditorBackground": "#2e3440",
-    "welcomePage.": "#404754"
+    "welcomePage.background": "#404754"
   },
   "tokenColors": [
     {
@@ -685,7 +686,7 @@
         "keyword.control"
       ],
       "settings": {
-        "foreground": "#c56068"
+        "foreground": "#d19a66"
       }
     },
     {
@@ -1196,15 +1197,25 @@
       }
     },
     {
+      //med
       "name": "JavaScript[React] Variable Other Object",
       "scope": [
+        "variable.other.readwrite.alias.js",
+        "variable.other.readwrite.alias.jsx",
+        "variable.other.readwrite.js",
+        "variable.other.readwrite.jsx",
         "variable.other.object.js",
         "variable.other.object.jsx",
         "variable.object.property.js",
-        "variable.object.property.jsx"
+        "variable.object.property.jsx",
+        "variable.other.js",
+        "variable.other.jsx",
+        "variable.jsx",
+        "variable.other.constant.js",
+        "variable.js"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#d19a66"
       }
     },
     {
@@ -1229,6 +1240,7 @@
         "foreground": "#f07178"
       }
     },
+
     {
       "name": "JSON Property Names",
       "scope": "support.type.property-name.json",
@@ -1599,7 +1611,7 @@
         "variable.ts"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#d19a66"
       }
     },
     {
