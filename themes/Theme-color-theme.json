@@ -314,7 +314,7 @@
       "name": "Meta Tag",
       "scope": ["punctuation.definition.tag", "meta.tag"],
       "settings": {
-        "foreground": "#c56068"
+        "foreground": "#5c6370"
       }
     },
     {
@@ -1170,6 +1170,7 @@
         "foreground": "#5f7e97"
       }
     },
+
     {
       "name": "Other Variables in Code Documentations",
       "scope": ["variable.other.jsdoc", "variable.other.phpdoc"],
@@ -1190,10 +1191,10 @@
       }
     },
     {
-      "name": "JavaScript Variable Parameter Function",
-      "scope": "variable.parameter.function.js",
+      "name": "parameter function js/ts",
+      "scope": "function.parameter",
       "settings": {
-        "foreground": "#7986E7"
+        "foreground": "#abb2bf"
       }
     },
     {
