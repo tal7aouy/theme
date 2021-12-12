@@ -12,3 +12,6 @@ add Js\Ts properties
 
 - change activityBar color
 - add Js[React] Variable Other Object
+# 1.2.1
+
+- change meta & params color
