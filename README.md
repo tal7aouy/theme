@@ -1,7 +1,8 @@
 # Theme
+
 <h1 align="center">
   <br>
-    <img src="https://github.com/tal7aouy/theme/blob/main/logo.png" alt="logo" width="200">
+    <img src="logo.png" alt="logo" width="200">
   <br><br>
   Theme
   <br>
