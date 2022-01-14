@@ -17,6 +17,6 @@ add Js\Ts properties
 
 - change meta & params color
 
-# 1.2.2
+# 1.2.2 - 1.2.3
 
 - update readme
