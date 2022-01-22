@@ -132,7 +132,7 @@
     "titleBar.inactiveBackground": "#21262c",
     "titleBar.inactiveForeground": "#6b717d",
     "walkThrough.embeddedEditorBackground": "#2e3440",
-    "welcomePage.background": "#404754"
+    "welcomePage.background": "#282c34"
   },
   "tokenColors": [
     {
