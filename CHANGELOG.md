@@ -20,3 +20,6 @@ add Js\Ts properties
 # 1.2.2 - 1.2.3
 
 - update readme
+
+# 1.2.4
+- update welcomePage background
