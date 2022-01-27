@@ -169,6 +169,13 @@
       }
     },
     {
+      "name": "Assembly",
+      "scope": ["constant.numeric.decimal.asm.x86_64"],
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
       "name": "Comment",
       "scope": "comment",
       "settings": {

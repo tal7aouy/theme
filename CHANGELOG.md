@@ -22,4 +22,9 @@ add Js\Ts properties
 - update readme
 
 # 1.2.4
+
 - update welcomePage background
+
+# 1.2.4
+
+- - Support for assembly syntax
