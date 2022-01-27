@@ -25,6 +25,6 @@ add Js\Ts properties
 
 - update welcomePage background
 
-# 1.2.4
+# 1.2.5
 
 - - Support for assembly syntax
