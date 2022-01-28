@@ -27,4 +27,9 @@ add Js\Ts properties
 
 # 1.2.5
 
-- - Support for assembly syntax
+- Support for assembly syntax
+
+# 1.2.6
+
+- support for java highlight
+- improve javascript highlight
