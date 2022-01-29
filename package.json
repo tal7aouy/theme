@@ -2,7 +2,7 @@
   "name": "theme",
   "displayName": "Theme",
   "description": "A Visual Studio Code theme  for those of us who like to code late into the night",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "publisher": "tal7aouy",
   "author": {
     "name": "MHAMMED TALHAOUY",
@@ -41,6 +41,11 @@
         "label": "Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Theme-color-theme.json"
+      },
+      {
+        "label": "Theme (Italic)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Theme-color-italic-theme.json"
       }
     ]
   }
