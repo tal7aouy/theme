@@ -180,7 +180,7 @@
       "scope": "comment",
       "settings": {
         "foreground": "#7f848e",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -658,7 +658,7 @@
       "name": "js/ts italic",
       "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -827,7 +827,7 @@
       "scope": "bold",
       "settings": {
         "foreground": "#bb7737",
-        "fontStyle": "italic bold"
+        "fontStyle": "bold"
       }
     },
     {
@@ -1452,7 +1452,7 @@
       "scope": "markup.bold.markdown",
       "settings": {
         "foreground": "#bb7737",
-        "fontStyle": "italic bold"
+        "fontStyle": "bold"
       }
     },
     {
