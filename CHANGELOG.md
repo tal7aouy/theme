@@ -33,3 +33,7 @@ add Js\Ts properties
 
 - support for java highlight
 - improve javascript highlight
+
+# 1.2.7
+
+- add Italic Theme
