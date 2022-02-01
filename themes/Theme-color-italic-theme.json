@@ -2,6 +2,32 @@
   "name": "Theme",
   "type": "dark",
   "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "enumMember": {
+      "foreground": "#56b6c2"
+    },
+    "variable.constant": {
+      "foreground": "#d19a66"
+    },
+    "variable.defaultLibrary": {
+      "foreground": "#e5c07b"
+    },
+    "variable:dart": {
+      "foreground": "#d19a66"
+    },
+    "property:dart": {
+      "foreground": "#d19a66"
+    },
+    "annotation:dart": {
+      "foreground": "#d19a66"
+    },
+    "parameter.label:dart": {
+      "foreground": "#abb2bf"
+    },
+    "macro": {
+      "foreground": "#d19a66"
+    }
+  },
   "colors": {
     "activityBar.background": "#282c34",
     "activityBar.foreground": "#d7dae0",
@@ -84,8 +110,7 @@
     "scrollbarSlider.hoverBackground": "#5a637580",
     "settings.focusedRowBackground": "#282c34",
     "settings.headerForeground": "#fff",
-    "sideBar.background": "#1d2025",
-    "sideBar.border": "#21262c",
+    "sideBar.background": "#21252b",
     "sideBar.foreground": "#abb2bf",
     "sideBarSectionHeader.background": "#282c34",
     "sideBarSectionHeader.foreground": "#abb2bf",
@@ -120,7 +145,7 @@
     "terminal.ansiWhite": "#e6e6e6",
     "terminal.ansiYellow": "#d18f52",
     "terminal.background": "#282c34",
-    "terminal.border": "#abb2bf",
+    "terminal.border": "#3e4452",
     "terminal.foreground": "#abb2bf",
     "terminal.selectionBackground": "#abb2bf30",
     "textBlockQuote.background": "#2e3440",
@@ -131,8 +156,8 @@
     "titleBar.activeForeground": "#9da5b4",
     "titleBar.inactiveBackground": "#21262c",
     "titleBar.inactiveForeground": "#6b717d",
-    "walkThrough.embeddedEditorBackground": "#2e3440",
-    "welcomePage.background": "#282c34"
+    "welcomePage.background": "#282c34",
+    "walkThrough.embeddedEditorBackground": "#2e3440"
   },
   "tokenColors": [
     {
@@ -169,6 +194,27 @@
       "scope": "",
       "settings": {
         "foreground": "#f07178"
+      }
+    },
+    {
+      "name": "unison punctuation",
+      "scope": "punctuation.definition.delayed.unison,punctuation.definition.list.begin.unison,punctuation.definition.list.end.unison,punctuation.definition.ability.begin.unison,punctuation.definition.ability.end.unison,punctuation.operator.assignment.as.unison,punctuation.separator.pipe.unison,punctuation.separator.delimiter.unison,punctuation.definition.hash.unison",
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "haskell variable generic-type",
+      "scope": "variable.other.generic-type.haskell",
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "haskell storage type",
+      "scope": "storage.type.haskell",
+      "settings": {
+        "foreground": "#d19a66"
       }
     },
     {
@@ -224,11 +270,7 @@
     },
     {
       "name": "Built-in constant",
-      "scope": [
-        "constant.language",
-        "punctuation.definition.constant",
-        "variable.other.constant"
-      ],
+      "scope": ["constant.language", "punctuation.definition.constant"],
       "settings": {
         "foreground": "#85a5e9"
       }
@@ -1231,9 +1273,15 @@
         "variable.other.js",
         "variable.other.jsx",
         "variable.jsx",
-        "variable.other.constant.js",
         "variable.js"
       ],
+      "settings": {
+        "foreground": "#d19a66"
+      }
+    },
+    {
+      "name": "js/ts variable.other.constant",
+      "scope": "variable.other.constant",
       "settings": {
         "foreground": "#d19a66"
       }
