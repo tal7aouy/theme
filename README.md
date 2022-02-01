@@ -32,6 +32,9 @@ Vue.js
 
 ![Screenshot - Theme](/images/code3.png)
 
+Markdown
+![Screenshot - Theme](/images/markdown.png)
+
 ## Installation
 
 1. Open the extensions sidebar on Visual Studio Code
