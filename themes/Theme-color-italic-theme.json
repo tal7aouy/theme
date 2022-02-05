@@ -1494,7 +1494,7 @@
     },
     {
       "name": "Markdown Italics",
-      "scope": "markup.italic.markdown",
+      "scope": ["markup.italic.markdown", "entity.name.section.markdown"],
       "settings": {
         "foreground": "#c792ea",
         "fontStyle": "italic"
