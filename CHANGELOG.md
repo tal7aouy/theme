@@ -37,8 +37,14 @@ add Js\Ts properties
 # 1.2.7
 
 - add Italic Theme
+
 # 1.2.8
 
 - change sidebar
 - add constant js/ts
 - add semanticTokenColors
+
+# 1.2.9
+
+- add italic markdown
+- update README

@@ -20,20 +20,16 @@
 
 ## Theme Screenshot
 
-Typescript
+CSS3
 
-![Screenshot - Theme](/images/code.png)
-
-PHP
-
-![Screenshot - Theme](/images/code2.png)
+![Screenshot - Theme](/images/code_css.png)
 
 Vue.js
 
-![Screenshot - Theme](/images/code3.png)
+![Screenshot - Theme](/images/code_vue.png)
 
 Markdown
-![Screenshot - Theme](/images/markdown.png)
+![Screenshot - Theme](/images/code_md.png)
 
 ## Installation
 
@@ -44,20 +40,88 @@ Markdown
 1. Select the Manage Cog (bottom left) > Color Theme ＞ Theme
 1. 🌟🌟🌟🌟🌟 Rate five-stars 😃
 
+### Italic
+
+You could set this in your setting.json to make code be italic
+
+```json
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": [
+            // the following elements will be in italic
+            "comment",
+            "storage.modifier", // static keyword
+            "storage.type.php", // typehints in methods keyword
+            "keyword.other.new.php", // new
+            "entity.other.attribute-name", // html attributes
+            "fenced_code.block.language.markdown", // markdown language modifier
+            "keyword", //import, export, return…
+            "storage.modifier", //static keyword
+            "storage.type", //class keyword
+            "keyword.control",
+            "constant.language",
+            "entity.other.attribute-name",
+            "entity.name.method",
+            "keyword.control.import.ts",
+            "keyword.control.import.tsx",
+            "keyword.control.import.js",
+            "keyword.control.flow.js",
+            "keyword.control.from.js",
+            "keyword.control.from.ts",
+            "keyword.control.from.tsx"
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": [
+            // the following elements will be displayed in bold
+            "entity.name.type.class" // class names
+          ],
+          "settings": {
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": [
+            // the following elements will be displayed in bold and italic
+            "entity.name.section.markdown" // markdown headlines
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": [
+            // the following elements will be excluded from italics
+            //   (VSCode has some defaults for italics)
+            "invalid",
+            "keyword.operator",
+            "constant.numeric.css",
+            "keyword.other.unit.px.css",
+            "constant.numeric.decimal.js",
+            "constant.numeric.json",
+            "comment.block",
+            "entity.other.attribute-name.class.css"
+          ],
+          "settings": {
+            "fontStyle": ""
+          }
+        }
+      ]
+    },
+```
+
 ## Suggest Editor Settings
 
 ```json
 "editor.fontSize": 16,
  "editor.lineHeight": 22,
- "editor.fontFamily": "Fira Code",
+ "editor.fontFamily": "Operator Mono Lig",
 ```
 
 ## Issues & Suggestions
 
 For any issues or suggestions, please use [GitHub issues](https://github.com/tal7aouy/theme/issues).
-
-## Font Family
-
-free monospaced font with programming ligatures.
-
-![Screenshot - Theme](/images/fira.png)
