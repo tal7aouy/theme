@@ -48,3 +48,10 @@ add Js\Ts properties
 
 - add italic markdown
 - update README
+
+# 2.0.0
+
+- update images
+- update README
+- add new features and colors
+- generate themes using typescript in an easy way
