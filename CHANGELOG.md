@@ -49,7 +49,7 @@ add Js\Ts properties
 - add italic markdown
 - update README
 
-# 2.0.0
+# 2.0.0 (Feb 23 2022)
 
 - update images
 - update README
