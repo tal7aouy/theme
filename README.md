@@ -1,5 +1,3 @@
-# Theme
-
 <h1 align="center">
   <br>
     <img src="logo.png" alt="logo" width="200">
@@ -20,16 +18,19 @@
 
 ## Theme Screenshot
 
-CSS3
+PHP
 
-![Screenshot - Theme](/images/code_css.png)
+![Screenshot - Theme](/images/code-php.png)
 
 Vue.js
 
-![Screenshot - Theme](/images/code_vue.png)
+![Screenshot - Theme](/images/code-vue.png)
 
 Markdown
-![Screenshot - Theme](/images/code_md.png)
+![Screenshot - Theme](/images/code-md.png)
+
+Typescript
+![Screenshot - Theme](/images/code-ts.png)
 
 ## Installation
 
@@ -114,7 +115,7 @@ You could set this in your setting.json to make code be italic
     },
 ```
 
-## Suggest Editor Settings
+### Suggest Editor Settings
 
 ```json
 "editor.fontSize": 16,
@@ -122,6 +123,6 @@ You could set this in your setting.json to make code be italic
  "editor.fontFamily": "Operator Mono Lig",
 ```
 
-## Issues & Suggestions
+### Issues & Suggestions
 
 For any issues or suggestions, please use [GitHub issues](https://github.com/tal7aouy/theme/issues).
