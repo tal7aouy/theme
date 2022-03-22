@@ -2,8 +2,8 @@ import fs, { writeFile } from "fs";
 import path from "path";
 import ui from "./ui";
 import setting from "./setting";
-import TokenColor from "./theme";
-import TokenColorItalic from "./themeItalic";
+import TokenColor from "./variants/theme";
+import TokenColorItalic from "./variants/themeItalic";
 // Theme Directory
 const THEME_DIR = path.join(__dirname, "..", "themes");
 
