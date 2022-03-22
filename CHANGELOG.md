@@ -55,3 +55,9 @@ add Js\Ts properties
 - update README
 - add new features and colors
 - generate themes using typescript in an easy way
+
+# 2.1.0 (Mar 22 2022)
+
+- update border(status, activityBar,panel)
+- update README
+- add variant folder
