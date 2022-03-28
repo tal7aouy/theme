@@ -61,3 +61,7 @@ add Js\Ts properties
 - update border(status, activityBar,panel)
 - update README
 - add variant folder
+
+# 2.1.1 (Mar 28 2022)
+
+- update Readme
