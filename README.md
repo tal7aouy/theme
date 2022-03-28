@@ -1,4 +1,9 @@
 <h1 align="center">
+<p dir="rtl">
+ 🤲 رمضان مبارك على جميع الأمة الإسلامية
+</p>
+  <img  src="images/ramadan.gif" style="width:800px; hieght:auto"/>
+<hr>
   <br>
     <img src="logo.png" alt="logo" width="200">
   <br><br>
