@@ -1,11 +1,6 @@
 <h1 align="center">
-<p dir="rtl">
- 🤲 رمضان مبارك على جميع الأمة الإسلامية
-</p>
-  <img  src="images/ramadan.gif" style="width:800px; hieght:auto"/>
-<hr>
   <br>
-    <img src="logo.png" alt="logo" width="200">
+    <img src="logo.png" alt="logo" width="150">
   <br><br>
   Theme
   <br>
@@ -45,6 +40,37 @@ Typescript
 1. Click Reload to reload your editor
 1. Select the Manage Cog (bottom left) > Color Theme ＞ Theme
 1. 🌟🌟🌟🌟🌟 Rate five-stars 😃
+
+## Tweaks & theming
+
+If you want to play around with new colors, use the setting `workbench.colorCustomizations ` to customize the currently selected theme. For example, you can add this snippet in your "settings.json" file:
+
+```json
+"workbench.colorCustomizations": {
+"tab.activeBackground": "#282c34",
+"activityBar.background": "#282c34",
+"sideBar.background": "#282c34",
+}
+```
+
+or use the setting `editor.tokenColorCustomizations`
+
+```json
+   "editor.tokenColorCustomizations": {
+    "[Theme]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "source.python"
+          ],
+          "settings": {
+            "foreground": "#e06c75"
+          }
+        }
+      ]
+    }
+  }
+```
 
 ### Italic
 
@@ -120,6 +146,13 @@ You could set this in your setting.json to make code be italic
     },
 ```
 
+<hr>
+
+### CHANGELOG
+
+[CHANGELOG](./CHANGELOG.md)
+
+<hr>
 ### Suggest Editor Settings
 
 ```json
