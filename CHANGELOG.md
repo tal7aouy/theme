@@ -65,3 +65,9 @@ add Js\Ts properties
 # 2.1.1 (Mar 28 2022)
 
 - update Readme
+
+# 2.2.0 (Apr 02 2022)
+
+- update Readme(fix issue #2)
+- clean up theme
+- add new features
