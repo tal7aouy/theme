@@ -17,10 +17,18 @@
     "theme": "dark"
   },
   "scripts": {
-    "build": "ts-node src/index.ts",
-    "package": "vsce package",
-    "start": "nodemon",
-    "lint": "eslint src --ext ts"
+    "prepare": "husky install",
+    "package": "mkdir -p ./theme && vsce package -o ./theme/theme.vsix",
+    "vscode:prepublish": "npm run build:fetch",
+    "vsce-publish": "vsce publish",
+    "postinstall": "npm run fetch:reference",
+    "dev": "DEBUG_VSCODE=1 ts-node-dev -r tsconfig-paths/register ./src/index.ts",
+    "exec:file": "ts-node -r tsconfig-paths/register",
+    "build": "npm run exec:file ./src/index.ts",
+    "build:fetch": "npm run fetch:reference && npm run build",
+    "fetch:reference": "npm run exec:file ./src/scripts/fetch-theme-colors-reference",
+    "prettier:format": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "lint": "eslint . --ext .ts"
   },
   "nodemonConfig": {
     "ext": "ts",
@@ -50,22 +58,35 @@
       {
         "label": "Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/theme-color.json"
+        "path": "./themes/Theme.json"
       },
       {
         "label": "Theme (Italic)",
         "uiTheme": "vs-dark",
-        "path": "./themes/theme-color-italic.json"
+        "path": "./themes/Theme(Italics).json"
       }
     ]
   },
-  "dependencies": {
-    "@types/node": "^17.0.19",
-    "@typescript-eslint/eslint-plugin-tslint": "^5.12.1",
-    "@typescript-eslint/parser": "^5.12.1",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@types/to-json-schema": "^0.2.1",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
     "eslint": "^8.9.0",
-    "nodemon": "^2.0.15",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "husky": "^7.0.4",
+    "json-schema-to-typescript": "^10.1.5",
+    "lint-staged": "^12.3.4",
+    "prettier": "^2.5.1",
+    "to-json-schema": "^0.2.5",
     "ts-node": "^10.5.0",
+    "ts-node-dev": "^1.1.8",
+    "tsconfig-paths": "^3.12.0",
     "typescript": "^4.5.5",
     "vsce": "^2.6.7"
   }
