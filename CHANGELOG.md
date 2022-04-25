@@ -71,3 +71,8 @@ add Js\Ts properties
 - update Readme(fix issue #2)
 - clean up theme
 - add new features
+
+# 2.3.0 (Apr 25 2022)
+
+- add a new flat theme
+- change some features
