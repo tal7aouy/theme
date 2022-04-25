@@ -1,7 +1,7 @@
 import { ThemeSchema } from '~/@types/ThemeSchema'
 import colors from '~/utils/colors'
 const Theme: ThemeSchema = {
-  name: 'Theme',
+  name: 'ThemeFlat',
   type: 'dark',
   colors: {
     'activityBar.background': '#282c34',
@@ -93,7 +93,7 @@ const Theme: ThemeSchema = {
     'scrollbarSlider.hoverBackground': '#5a637580',
     'settings.focusedRowBackground': '#282c34',
     'settings.headerForeground': '#fff',
-    'sideBar.background': '#21252b',
+    'sideBar.background': '#282c34',
     'sideBar.foreground': '#abb2bf',
     'sideBarSectionHeader.background': '#282c34',
     'sideBarSectionHeader.foreground': '#abb2bf',

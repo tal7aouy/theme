@@ -162,6 +162,8 @@ export interface ThemeColorsReference {
   'editorGhostText.background'?: string
   'editorGhostText.border'?: string
   'editorGhostText.foreground'?: string
+  'editorActiveLineNumber.foreground'?: string
+  'editorGroup.background'?: string
   'editorGroup.border'?: string
   'editorGroup.dropBackground'?: string
   'editorGroup.emptyBackground'?: string
