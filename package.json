@@ -64,6 +64,11 @@
         "label": "Theme (Italic)",
         "uiTheme": "vs-dark",
         "path": "./themes/Theme(Italics).json"
+      },
+      {
+        "label": "Theme Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ThemeFlat.json"
       }
     ]
   },
