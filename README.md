@@ -153,6 +153,7 @@ You could set this in your setting.json to make code be italic
 [CHANGELOG](./CHANGELOG.md)
 
 <hr>
+
 ### Suggest Editor Settings
 
 ```json
