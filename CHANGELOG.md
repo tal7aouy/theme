@@ -76,3 +76,7 @@ add Js\Ts properties
 
 - add a new flat theme
 - change some features
+
+# 2.4.0 (Jul 24 2022)
+
+- add some update
