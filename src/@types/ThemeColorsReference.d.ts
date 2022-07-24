@@ -44,6 +44,11 @@ export interface ThemeColorsReference {
   'checkbox.background'?: string
   'checkbox.border'?: string
   'checkbox.foreground'?: string
+  'commandCenter.activeBackground'?: string
+  'commandCenter.activeForeground'?: string
+  'commandCenter.background'?: string
+  'commandCenter.border'?: string
+  'commandCenter.foreground'?: string
   contrastActiveBorder?: string
   contrastBorder?: string
   'debugConsole.errorForeground'?: string
@@ -94,6 +99,7 @@ export interface ThemeColorsReference {
   'diffEditorGutter.removedLineBackground'?: string
   'diffEditorOverview.insertedForeground'?: string
   'diffEditorOverview.removedForeground'?: string
+  disabledForeground?: string
   'dropdown.background'?: string
   'dropdown.border'?: string
   'dropdown.foreground'?: string
@@ -154,6 +160,12 @@ export interface ThemeColorsReference {
   'editorBracketPairGuide.background5'?: string
   'editorBracketPairGuide.background6'?: string
   'editorCodeLens.foreground'?: string
+  'editorCommentsWidget.rangeActiveBackground'?: string
+  'editorCommentsWidget.rangeActiveBorder'?: string
+  'editorCommentsWidget.rangeBackground'?: string
+  'editorCommentsWidget.rangeBorder'?: string
+  'editorCommentsWidget.resolvedBorder'?: string
+  'editorCommentsWidget.unresolvedBorder'?: string
   'editorCursor.background'?: string
   'editorCursor.foreground'?: string
   'editorError.background'?: string
@@ -162,10 +174,11 @@ export interface ThemeColorsReference {
   'editorGhostText.background'?: string
   'editorGhostText.border'?: string
   'editorGhostText.foreground'?: string
-  'editorActiveLineNumber.foreground'?: string
-  'editorGroup.background'?: string
   'editorGroup.border'?: string
   'editorGroup.dropBackground'?: string
+  'editorGroup.dropIntoPromptBackground'?: string
+  'editorGroup.dropIntoPromptBorder'?: string
+  'editorGroup.dropIntoPromptForeground'?: string
   'editorGroup.emptyBackground'?: string
   'editorGroup.focusedEmptyBorder'?: string
   'editorGroupHeader.border'?: string
@@ -236,6 +249,7 @@ export interface ThemeColorsReference {
   'editorSuggestWidget.selectedForeground'?: string
   'editorSuggestWidget.selectedIconForeground'?: string
   'editorSuggestWidgetStatus.foreground'?: string
+  'editorUnicodeHighlight.background'?: string
   'editorUnicodeHighlight.border'?: string
   'editorUnnecessaryCode.border'?: string
   'editorUnnecessaryCode.opacity'?: string
@@ -254,6 +268,7 @@ export interface ThemeColorsReference {
   'extensionButton.prominentForeground'?: string
   'extensionButton.prominentHoverBackground'?: string
   'extensionIcon.preReleaseForeground'?: string
+  'extensionIcon.sponsorForeground'?: string
   'extensionIcon.starForeground'?: string
   'extensionIcon.verifiedForeground'?: string
   focusBorder?: string
@@ -300,6 +315,7 @@ export interface ThemeColorsReference {
   'list.errorForeground'?: string
   'list.filterMatchBackground'?: string
   'list.filterMatchBorder'?: string
+  'list.focusAndSelectionOutline'?: string
   'list.focusBackground'?: string
   'list.focusForeground'?: string
   'list.focusHighlightForeground'?: string
@@ -334,6 +350,14 @@ export interface ThemeColorsReference {
   'merge.currentHeaderBackground'?: string
   'merge.incomingContentBackground'?: string
   'merge.incomingHeaderBackground'?: string
+  'mergeEditor.change.background'?: string
+  'mergeEditor.change.word.background'?: string
+  'mergeEditor.conflict.handled.minimapOverViewRuler'?: string
+  'mergeEditor.conflict.handledFocused.border'?: string
+  'mergeEditor.conflict.handledUnfocused.border'?: string
+  'mergeEditor.conflict.unhandled.minimapOverViewRuler'?: string
+  'mergeEditor.conflict.unhandledFocused.border'?: string
+  'mergeEditor.conflict.unhandledUnfocused.border'?: string
   'minimap.background'?: string
   'minimap.errorHighlight'?: string
   'minimap.findMatchHighlight'?: string
@@ -353,6 +377,7 @@ export interface ThemeColorsReference {
   'notebook.cellInsertionIndicator'?: string
   'notebook.cellStatusBarItemHoverBackground'?: string
   'notebook.cellToolbarSeparator'?: string
+  'notebook.editorBackground'?: string
   'notebook.focusedCellBackground'?: string
   'notebook.focusedCellBorder'?: string
   'notebook.focusedEditorBorder'?: string
@@ -480,6 +505,8 @@ export interface ThemeColorsReference {
   'statusBarItem.prominentHoverBackground'?: string
   'statusBarItem.remoteBackground'?: string
   'statusBarItem.remoteForeground'?: string
+  'statusBarItem.settingsProfilesBackground'?: string
+  'statusBarItem.settingsProfilesForeground'?: string
   'statusBarItem.warningBackground'?: string
   'statusBarItem.warningForeground'?: string
   'symbolIcon.arrayForeground'?: string
@@ -558,14 +585,21 @@ export interface ThemeColorsReference {
   'terminal.background'?: string
   'terminal.border'?: string
   'terminal.dropBackground'?: string
+  'terminal.findMatchBackground'?: string
+  'terminal.findMatchBorder'?: string
+  'terminal.findMatchHighlightBackground'?: string
+  'terminal.findMatchHighlightBorder'?: string
   'terminal.foreground'?: string
   'terminal.selectionBackground'?: string
+  'terminal.selectionForeground'?: string
   'terminal.tab.activeBorder'?: string
   'terminalCommandDecoration.defaultBackground'?: string
   'terminalCommandDecoration.errorBackground'?: string
   'terminalCommandDecoration.successBackground'?: string
   'terminalCursor.background'?: string
   'terminalCursor.foreground'?: string
+  'terminalOverviewRuler.cursorForeground'?: string
+  'terminalOverviewRuler.findMatchForeground'?: string
   'testing.iconErrored'?: string
   'testing.iconFailed'?: string
   'testing.iconPassed'?: string
