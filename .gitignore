@@ -2,3 +2,4 @@ node_modules
 *.vsix
 themes
 theme
+package-lock.json
