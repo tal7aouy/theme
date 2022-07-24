@@ -83,7 +83,7 @@ const Theme: ThemeSchema = {
     'minimapGutter.deletedBackground': '#9A353D',
     'minimapGutter.modifiedBackground': '#948B60',
     'panelSectionHeader.background': '#1e2227',
-    'panel.border': '#23272e',
+    'panel.border': '#3e4452',
     'peekViewEditor.background': '#1b1d23',
     'peekViewEditor.matchHighlightBackground': '#29244b',
     'peekViewResult.background': '#22262b',
