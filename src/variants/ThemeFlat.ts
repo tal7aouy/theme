@@ -6,7 +6,7 @@ const Theme: ThemeSchema = {
   colors: {
     'activityBar.background': '#282c34',
     'activityBar.foreground': '#d7dae0',
-    'activityBar.border': '#23272e',
+    'activityBar.border': '#21252b',
     'activityBarBadge.background': '#4d78cc',
     'activityBarBadge.foreground': '#f8fafd',
     'badge.background': '#282c34',
@@ -35,9 +35,6 @@ const Theme: ThemeSchema = {
     'editorGutter.addedBackground': '#109868',
     'editorGutter.deletedBackground': '#9A353D',
     'editorGutter.modifiedBackground': '#948B60',
-    // 'editorOverviewRuler.addedBackground': '#109868',
-    // 'editorOverviewRuler.deletedBackground': '#9A353D',
-    // 'editorOverviewRuler.modifiedBackground': '#948B60',
     'editor.selectionBackground': '#67769660',
     'editor.selectionHighlightBackground': '#ffffff10',
     'editor.selectionHighlightBorder': '#dddddd',
@@ -50,9 +47,8 @@ const Theme: ThemeSchema = {
     'editorCursor.background': '#ffffffc9',
     'editorCursor.foreground': '#528bff',
     'editorError.foreground': '#c24038',
-    // 'editorGroup.background': '#181a1f',
     'editorGroup.border': '#181a1f',
-    'editorGroupHeader.tabsBackground': '#21252b',
+    'editorGroupHeader.tabsBackground': '#282c34',
     'editorHoverWidget.background': '#21252b',
     'editorHoverWidget.border': '#181a1f',
     'editorIndentGuide.activeBackground': '#c8c8c859',
@@ -101,7 +97,7 @@ const Theme: ThemeSchema = {
     'sideBarSectionHeader.background': '#282c34',
     'sideBarSectionHeader.foreground': '#abb2bf',
     'statusBar.background': '#282c34',
-    'statusBar.border': '#23272e',
+    'statusBar.border': '#21252b',
     'statusBar.debuggingBackground': '#cc6633',
     'statusBar.debuggingBorder': '#ff000000',
     'statusBar.debuggingForeground': '#ffffff',
@@ -111,10 +107,11 @@ const Theme: ThemeSchema = {
     'statusBarItem.remoteForeground': '#f8fafd',
     'tab.activeBackground': '#282c34',
     'tab.activeForeground': '#dcdcdc',
-    'tab.border': '#181a1f',
+    'tab.border': '#282c34',
+    'tab.activeBorder': '#bbfdff',
     'tab.hoverBackground': '#323842',
-    'tab.inactiveBackground': '#21252b',
-    'tab.unfocusedHoverBackground': '#323842',
+    'tab.inactiveBackground': '#282c34',
+    'tab.unfocusedHoverBackground': '#282c34',
     'terminal.ansiBlack': '#3f4451',
     'terminal.ansiBlue': '#4aa5f0',
     'terminal.ansiBrightBlack': '#4f5666',
@@ -145,7 +142,6 @@ const Theme: ThemeSchema = {
     'titleBar.inactiveForeground': '#6b717d',
     'tree.indentGuidesStroke': '#ffffff1d',
     'walkThrough.embeddedEditorBackground': '#2e3440',
-    // 'welcomePage.buttonHoverBackground': '#404754',
   },
   tokenColors: [
     {
@@ -331,6 +327,7 @@ const Theme: ThemeSchema = {
       scope: 'keyword.operator.expression.import',
       settings: {
         foreground: colors.malibu,
+        fontStyle: 'italic',
       },
     },
     {
@@ -511,6 +508,7 @@ const Theme: ThemeSchema = {
       ],
       settings: {
         foreground: colors.purple,
+        fontStyle: 'italic',
       },
     },
     {
@@ -1825,6 +1823,7 @@ const Theme: ThemeSchema = {
       scope: ['beginning.punctuation.definition.list.markdown.xi'],
       settings: {
         foreground: colors.lightDark,
+        fontStyle: 'italic',
       },
     },
     {

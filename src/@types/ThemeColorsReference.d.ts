@@ -33,6 +33,7 @@ export interface ThemeColorsReference {
   'button.secondaryBackground'?: string
   'button.secondaryForeground'?: string
   'button.secondaryHoverBackground'?: string
+  'button.separator'?: string
   'charts.blue'?: string
   'charts.foreground'?: string
   'charts.green'?: string
@@ -240,6 +241,8 @@ export interface ThemeColorsReference {
   'editorOverviewRuler.wordHighlightStrongForeground'?: string
   'editorPane.background'?: string
   'editorRuler.foreground'?: string
+  'editorStickyScroll.background'?: string
+  'editorStickyScrollHover.background'?: string
   'editorSuggestWidget.background'?: string
   'editorSuggestWidget.border'?: string
   'editorSuggestWidget.focusHighlightForeground'?: string
@@ -333,6 +336,7 @@ export interface ThemeColorsReference {
   'listFilterWidget.background'?: string
   'listFilterWidget.noMatchesOutline'?: string
   'listFilterWidget.outline'?: string
+  'listFilterWidget.shadow'?: string
   'menu.background'?: string
   'menu.border'?: string
   'menu.foreground'?: string
@@ -358,6 +362,7 @@ export interface ThemeColorsReference {
   'mergeEditor.conflict.unhandled.minimapOverViewRuler'?: string
   'mergeEditor.conflict.unhandledFocused.border'?: string
   'mergeEditor.conflict.unhandledUnfocused.border'?: string
+  'mergeEditor.conflictingLines.background'?: string
   'minimap.background'?: string
   'minimap.errorHighlight'?: string
   'minimap.findMatchHighlight'?: string
@@ -590,6 +595,7 @@ export interface ThemeColorsReference {
   'terminal.findMatchHighlightBackground'?: string
   'terminal.findMatchHighlightBorder'?: string
   'terminal.foreground'?: string
+  'terminal.inactiveSelectionBackground'?: string
   'terminal.selectionBackground'?: string
   'terminal.selectionForeground'?: string
   'terminal.tab.activeBorder'?: string
