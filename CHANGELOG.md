@@ -80,3 +80,5 @@ add Js\Ts properties
 # 2.4.0 (Jul 24 2022)
 
 - add some update
+# 2.5.0 (Oct 06 2022)
+- update themeFlat style
