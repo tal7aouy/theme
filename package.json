@@ -2,11 +2,11 @@
   "name": "theme",
   "displayName": "Theme",
   "description": "A Visual Studio Code theme  for those of us who like to code late into the night",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "publisher": "tal7aouy",
   "author": {
     "name": "MHAMMED TALHAOUY",
-    "email": "talhaouycoding@gmail.com"
+    "email": "tal7aouy@gmail.com"
   },
   "repository": {
     "type": "git",
@@ -72,6 +72,10 @@
         "label": "Theme Flat",
         "uiTheme": "vs-dark",
         "path": "./themes/ThemeFlat.json"
+      },{
+        "label": "Theme Mix",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ThemeMix.json"
       }
     ]
   },
@@ -97,5 +101,22 @@
     "tsconfig-paths": "^3.12.0",
     "typescript": "^4.5.5",
     "vsce": "^2.6.7"
-  }
+  },
+  "badges": [
+    {
+      "url": "https://vsmarketplacebadges.dev/version/tal7aouy.theme.png",
+      "href": "https://marketplace.visualstudio.com/items/tal7aouy.theme",
+      "description": "Extension version"
+    },
+    {
+      "url": "https://vsmarketplacebadges.dev/installs/tal7aouy.theme.png",
+      "href": "https://marketplace.visualstudio.com/items/tal7aouy.theme",
+      "description": "Extension installs"
+    },
+    {
+      "url": "https://vsmarketplacebadges.dev/rating/tal7aouy.theme.png",
+      "href": "https://marketplace.visualstudio.com/items/tal7aouy.theme",
+      "description": "Extension Rating"
+    }
+  ]
 }
