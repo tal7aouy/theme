@@ -82,3 +82,5 @@ add Js\Ts properties
 - add some update
 # 2.5.0 (Oct 06 2022)
 - update themeFlat style
+# 2.6.0 (Apr 15 2022)
+- Add Mix theme
