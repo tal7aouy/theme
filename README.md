@@ -9,11 +9,12 @@
 
 <h4 align="center">Get the Theme into your VS Code.</h4>
 
+
 <p align="center">
-    <a href="https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme"><img src="https://vsmarketplacebadge.apphb.com/version-short/tal7aouy.theme.svg?style=for-the-badge&colorA=252526&colorB=43A047&label=VERSION" alt="Version"></a>&nbsp;
-    <a href="https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme"><img src="https://vsmarketplacebadge.apphb.com/rating-short/tal7aouy.theme.svg?style=for-the-badge&colorA=252526&colorB=43A047&label=Rating" alt="Rating"></a>&nbsp;
-    <a href="https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme"><img src="https://vsmarketplacebadge.apphb.com/installs-short/tal7aouy.theme.svg?style=for-the-badge&colorA=252526&colorB=43A047&label=Installs" alt="Installs"></a>&nbsp;
-    <a href="https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme"><img src="https://vsmarketplacebadge.apphb.com/downloads-short/tal7aouy.theme.svg?style=for-the-badge&colorA=252526&colorB=43A047&label=Downloads" alt="Downloads"></a>
+    <a href="https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme"><img src="https://vsmarketplacebadges.dev/version-short/tal7aouy.theme.jpg?style=for-the-badge&colorA=252526&colorB=1B9AAA&label=VERSION" alt="Version"></a>&nbsp;
+    <a href="https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme"><img src="https://vsmarketplacebadges.dev/rating-short/tal7aouy.theme.jpg?style=for-the-badge&colorA=252526&colorB=1B9AAA&label=Rating" alt="Rating"></a>&nbsp;
+    <a href="https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme"><img src="https://vsmarketplacebadges.dev/installs-short/tal7aouy.theme.jpg?style=for-the-badge&colorA=252526&colorB=1B9AAA&label=Installs" alt="Installs"></a>&nbsp;
+    <a href="https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme"><img src="https://vsmarketplacebadges.dev/downloads-short/tal7aouy.theme.jpg?style=for-the-badge&colorA=252526&colorB=1B9AAA&label=Downloads" alt="Downloads"></a>
 </p>
 
 ## Theme Screenshot
