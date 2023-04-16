@@ -1,6 +1,5 @@
-import { ThemeSchema, TokenColor } from '~/@types/ThemeSchema'
-import Theme from './theme'
-const italics: TokenColor[] = [
+import { TokenColor } from '~/@types/ThemeSchema'
+const Italic: TokenColor[] = [
   {
     name: 'Comments',
     scope: 'comment, punctuation.definition.comment',
@@ -72,10 +71,4 @@ const italics: TokenColor[] = [
   },
 ]
 
-const { type, colors, tokenColors } = Theme
-export const ThemeItalics: ThemeSchema = {
-  name: 'Theme(Italics)',
-  type,
-  colors,
-  tokenColors: [...tokenColors, ...italics],
-}
+export default Italic
