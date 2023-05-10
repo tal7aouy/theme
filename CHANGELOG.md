@@ -80,10 +80,16 @@ add Js\Ts properties
 # 2.4.0 (Jul 24 2022)
 
 - add some update
+
 # 2.5.0 (Oct 06 2022)
+
 - update themeFlat style
-# 2.6.0 (Apr 15 2022)
+
+# 2.6.0 (Apr 15 2023)
+
 - Add Mix theme
-# 2.7.0 (Apr 16 2022)
+
+# 2.7.0 (Apr 16 2023)
+
 - Make it clean and resuable 
 - remove italic & add it in Mix
