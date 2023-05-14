@@ -93,3 +93,8 @@ add Js\Ts properties
 
 - Make it clean and resuable 
 - remove italic & add it in Mix
+
+# 2.8.0 (May 14 2023)
+
+- update theme to be dark
+- make colors amazing and nice
