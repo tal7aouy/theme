@@ -42,6 +42,8 @@ export interface ThemeColorsReference {
   'charts.purple'?: string
   'charts.red'?: string
   'charts.yellow'?: string
+  'chat.requestBackground'?: string
+  'chat.requestBorder'?: string
   'checkbox.background'?: string
   'checkbox.border'?: string
   'checkbox.foreground'?: string
@@ -55,6 +57,8 @@ export interface ThemeColorsReference {
   'commandCenter.foreground'?: string
   'commandCenter.inactiveBorder'?: string
   'commandCenter.inactiveForeground'?: string
+  'commentsView.resolvedIcon'?: string
+  'commentsView.unresolvedIcon'?: string
   contrastActiveBorder?: string
   contrastBorder?: string
   'debugConsole.errorForeground'?: string
@@ -98,9 +102,13 @@ export interface ThemeColorsReference {
   'diffEditor.insertedLineBackground'?: string
   'diffEditor.insertedTextBackground'?: string
   'diffEditor.insertedTextBorder'?: string
+  'diffEditor.move.border'?: string
   'diffEditor.removedLineBackground'?: string
   'diffEditor.removedTextBackground'?: string
   'diffEditor.removedTextBorder'?: string
+  'diffEditor.unchangedCodeBackground'?: string
+  'diffEditor.unchangedRegionBackground'?: string
+  'diffEditor.unchangedRegionForeground'?: string
   'diffEditorGutter.insertedLineBackground'?: string
   'diffEditorGutter.removedLineBackground'?: string
   'diffEditorOverview.insertedForeground'?: string
@@ -236,6 +244,8 @@ export interface ThemeColorsReference {
   'editorOverviewRuler.background'?: string
   'editorOverviewRuler.border'?: string
   'editorOverviewRuler.bracketMatchForeground'?: string
+  'editorOverviewRuler.commentForeground'?: string
+  'editorOverviewRuler.commentUnresolvedForeground'?: string
   'editorOverviewRuler.commonContentForeground'?: string
   'editorOverviewRuler.currentContentForeground'?: string
   'editorOverviewRuler.deletedForeground'?: string
@@ -302,6 +312,16 @@ export interface ThemeColorsReference {
   'gitDecoration.submoduleResourceForeground'?: string
   'gitDecoration.untrackedResourceForeground'?: string
   'icon.foreground'?: string
+  'inlineChat.background'?: string
+  'inlineChat.border'?: string
+  'inlineChat.regionHighlight'?: string
+  'inlineChat.shadow'?: string
+  'inlineChatDiff.inserted'?: string
+  'inlineChatInput.background'?: string
+  'inlineChatInput.border'?: string
+  'inlineChatInput.focusBorder'?: string
+  'inlineChatInput.placeholderForeground'?: string
+  'inlineChatrDiff.removed'?: string
   'input.background'?: string
   'input.border'?: string
   'input.foreground'?: string
@@ -524,6 +544,8 @@ export interface ThemeColorsReference {
   'statusBar.noFolderBackground'?: string
   'statusBar.noFolderBorder'?: string
   'statusBar.noFolderForeground'?: string
+  'statusBar.offlineBackground'?: string
+  'statusBar.offlineForeground'?: string
   'statusBarItem.activeBackground'?: string
   'statusBarItem.compactHoverBackground'?: string
   'statusBarItem.errorBackground'?: string
@@ -662,6 +684,11 @@ export interface ThemeColorsReference {
   'tree.indentGuidesStroke'?: string
   'tree.tableColumnsBorder'?: string
   'tree.tableOddRowsBackground'?: string
+  'editorOverviewRuler.addedBackground'?: string
+  'editorOverviewRuler.deletedBackground'?: string
+  'editorOverviewRuler.modifiedBackground'?: string
+  'editorGroup.background'?: string
+  'welcomePage.buttonHoverBackground'?: string
   'walkThrough.embeddedEditorBackground'?: string
   'walkthrough.stepTitle.foreground'?: string
   'welcomePage.background'?: string
