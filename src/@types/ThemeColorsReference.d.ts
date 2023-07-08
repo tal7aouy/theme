@@ -684,11 +684,6 @@ export interface ThemeColorsReference {
   'tree.indentGuidesStroke'?: string
   'tree.tableColumnsBorder'?: string
   'tree.tableOddRowsBackground'?: string
-  'editorOverviewRuler.addedBackground'?: string
-  'editorOverviewRuler.deletedBackground'?: string
-  'editorOverviewRuler.modifiedBackground'?: string
-  'editorGroup.background'?: string
-  'welcomePage.buttonHoverBackground'?: string
   'walkThrough.embeddedEditorBackground'?: string
   'walkthrough.stepTitle.foreground'?: string
   'welcomePage.background'?: string
