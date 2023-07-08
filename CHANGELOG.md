@@ -98,3 +98,6 @@ add Js\Ts properties
 
 - update theme to be dark
 - make colors amazing and nice
+# 2.9.0 (Jul 08 2023)
+
+- update theme Color refs
