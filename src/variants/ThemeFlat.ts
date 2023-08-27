@@ -120,7 +120,7 @@ const Theme: ThemeSchema = {
     'sideBarSectionHeader.foreground': '#abb2bf',
     'sideBarTitle.foreground': '#abb2bf',
     'statusBar.background': '#282c34',
-    'statusBar.border': '#282c34',
+    'statusBar.border': '#23252c',
     'statusBar.debuggingBackground': '#cc6633',
     'statusBar.debuggingBorder': '#ff000000',
     'statusBar.debuggingForeground': '#fff',

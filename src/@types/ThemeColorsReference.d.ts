@@ -317,11 +317,11 @@ export interface ThemeColorsReference {
   'inlineChat.regionHighlight'?: string
   'inlineChat.shadow'?: string
   'inlineChatDiff.inserted'?: string
+  'inlineChatDiff.removed'?: string
   'inlineChatInput.background'?: string
   'inlineChatInput.border'?: string
   'inlineChatInput.focusBorder'?: string
   'inlineChatInput.placeholderForeground'?: string
-  'inlineChatrDiff.removed'?: string
   'input.background'?: string
   'input.border'?: string
   'input.foreground'?: string
