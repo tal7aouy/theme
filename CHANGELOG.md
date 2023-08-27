@@ -101,3 +101,8 @@ add Js\Ts properties
 # 2.9.0 (Jul 08 2023)
 
 - update theme Color refs
+
+# 3.0.0 (Aug 27 2023)
+
+- change status border color
+- update colors
