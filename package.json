@@ -2,11 +2,12 @@
   "name": "theme",
   "displayName": "Theme",
   "description": "A Visual Studio Code theme  for those of us who like to code late into the night",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "publisher": "tal7aouy",
   "author": {
     "name": "MHAMMED TALHAOUY",
-    "email": "tal7aouy@gmail.com"
+    "email": "tal7aouy@gmail.com",
+    "url": "https:/talhaouy.me"
   },
   "repository": {
     "type": "git",
@@ -71,6 +72,11 @@
         "label": "Theme Mix",
         "uiTheme": "vs-dark",
         "path": "./themes/ThemeMix.json"
+      },
+      {
+        "label": "Theme Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ThemeDarker.json"
       }
     ]
   },

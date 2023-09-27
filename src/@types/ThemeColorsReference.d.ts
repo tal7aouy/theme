@@ -544,21 +544,29 @@ export interface ThemeColorsReference {
   'statusBar.noFolderBackground'?: string
   'statusBar.noFolderBorder'?: string
   'statusBar.noFolderForeground'?: string
-  'statusBar.offlineBackground'?: string
-  'statusBar.offlineForeground'?: string
   'statusBarItem.activeBackground'?: string
   'statusBarItem.compactHoverBackground'?: string
   'statusBarItem.errorBackground'?: string
   'statusBarItem.errorForeground'?: string
+  'statusBarItem.errorHoverBackground'?: string
+  'statusBarItem.errorHoverForeground'?: string
   'statusBarItem.focusBorder'?: string
   'statusBarItem.hoverBackground'?: string
+  'statusBarItem.offlineBackground'?: string
+  'statusBarItem.offlineForeground'?: string
+  'statusBarItem.offlineHoverBackground'?: string
+  'statusBarItem.offlineHoverForeground'?: string
   'statusBarItem.prominentBackground'?: string
   'statusBarItem.prominentForeground'?: string
   'statusBarItem.prominentHoverBackground'?: string
   'statusBarItem.remoteBackground'?: string
   'statusBarItem.remoteForeground'?: string
+  'statusBarItem.remoteHoverBackground'?: string
+  'statusBarItem.remoteHoverForeground'?: string
   'statusBarItem.warningBackground'?: string
   'statusBarItem.warningForeground'?: string
+  'statusBarItem.warningHoverBackground'?: string
+  'statusBarItem.warningHoverForeground'?: string
   'symbolIcon.arrayForeground'?: string
   'symbolIcon.booleanForeground'?: string
   'symbolIcon.classForeground'?: string
