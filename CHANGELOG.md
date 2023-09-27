@@ -91,13 +91,14 @@ add Js\Ts properties
 
 # 2.7.0 (Apr 16 2023)
 
-- Make it clean and resuable 
+- Make it clean and resuable
 - remove italic & add it in Mix
 
 # 2.8.0 (May 14 2023)
 
 - update theme to be dark
 - make colors amazing and nice
+
 # 2.9.0 (Jul 08 2023)
 
 - update theme Color refs
@@ -106,3 +107,8 @@ add Js\Ts properties
 
 - change status border color
 - update colors
+
+# 3.1.0 (Sep 27 2023)
+
+- Added Theme Darker
+- Add new features

@@ -9,7 +9,6 @@
 
 <h4 align="center">Get the Theme into your VS Code.</h4>
 
-
 <p align="center">
     <a href="https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme"><img src="https://vsmarketplacebadges.dev/version-short/tal7aouy.theme.jpg?style=for-the-badge&colorA=252526&colorB=1B9AAA&label=VERSION" alt="Version"></a>&nbsp;
     <a href="https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme"><img src="https://vsmarketplacebadges.dev/rating-short/tal7aouy.theme.jpg?style=for-the-badge&colorA=252526&colorB=1B9AAA&label=Rating" alt="Rating"></a>&nbsp;
@@ -19,18 +18,8 @@
 
 ## Theme Screenshot
 
-PHP
+![Screenshot - Theme](/images/code.png)
 
-![Screenshot - Theme](/images/code-php.png)
-
-Vue.js
-
-![Screenshot - Theme](/images/code-vue.png)
-
-Markdown
-![Screenshot - Theme](/images/code-md.png)
-
-Typescript
 ![Screenshot - Theme](/images/code-ts.png)
 
 ## Installation
